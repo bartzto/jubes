@@ -7,6 +7,7 @@ help()
 {
 	echo "jubes [option]"
 	printf "\t-e\tTo execute the programm after compiling\n"
+	printf "\t-c\tTo clar all build files"
 	printf "\t--help\tTo show this Help page\n"
 	exit
 }
@@ -23,7 +24,7 @@ do
         -v) echo "Version:"
             ;;
 	-c)
-	    rm -rf CMakeFiles/ cmake_install.cmake Makefile CMakeCache.txt bin/*
+	    rm -rf CMakeFiles/ cmake_install.cmake Makefile CMakeCache.txt
 	    ;;
 	--help)
 	    help
