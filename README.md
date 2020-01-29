@@ -8,8 +8,15 @@
 
 **Team:** Lukas Holzner, Tobias Bartz
 
+## Zeitplan
+**Bepsrechungstermin:** Donnerstag, 29.01.2020
+
 ## Grafische Darstellung
 ![Grafik](https://github.com/MeisterGig/jubes/blob/master/JuBeS-EPK.svg)
+
+## Nicht Ziele
+- Grafische Oberfläche zum Guthaben aufladen
+
 
 ## Risikoanalyse
 | Problem | Lösung | Wahrscheinlichkeit |
@@ -19,14 +26,19 @@
 | Hacking | Hardware-Zugriff erschweren | Gering
 | Stromausfall | -/- | Gering |
 
+## Ressourcen
+
+ESP32, Buzzer, I2C LCD Bildschirm, RFID Leser, Kabel
+
 
 ## Meilensteine
-- [ ] Karten erkennen
-- [ ] Karten IDs abspeichern
-- [ ] Buttons / Funktionen einbauen
-- [ ] Bildschirm 
-- [ ] Bluetooth-Verbindung zum Karten aufladen
-- [ ] Anbindung an die Jura Kaffeemaschine
-- [ ] Physische Beschränkung an der Kaffeemaschine
-- [x] Wartemusik mit Buzzer z.B.: Tetris
-- [ ] Plattform mit Online-Zahlung
+- [x] Karten erkennen **(1 Tag)**
+- [ ] Karten IDs abspeichern **(1 Tag)**
+- [ ] Buttons / Funktionen einbauen **(1 Tag)**
+- [ ] Bildschirm **(1 Tag)**
+- [ ] Bluetooth-Verbindung zum Karten aufladen **(1 Tag)**
+- [ ] Physische Beschränkung an der Kaffeemaschine **( 1 1/2 Tage)**
+- [x] Wartemusik mit Buzzer z.B.: Tetris **(2 Stunden)**
+- [ ] Anbindung an die Jura Kaffeemaschine **(3 Tage)**
+
+
