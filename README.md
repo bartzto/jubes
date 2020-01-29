@@ -6,7 +6,10 @@
 # Projektplanung
 **Stakeholder:** Ausbilder
 
-**Team:** Lukas Holzner, Tobias Bartz
+### Team
+**Projektleiter:** Lukas Holzner
+
+**Team Mitlgied:** Tobias Bartz
 
 ## Zeitplan
 **Bepsrechungstermin:** Donnerstag, 29.01.2020
