@@ -28,5 +28,5 @@
 - [ ] Bluetooth-Verbindung zum Karten aufladen
 - [ ] Anbindung an die Jura Kaffeemaschine
 - [ ] Physische Beschränkung an der Kaffeemaschine
-- [ ] Wartemusik mit Buzzer z.B.: Tetris
+- [x] Wartemusik mit Buzzer z.B.: Tetris
 - [ ] Plattform mit Online-Zahlung
