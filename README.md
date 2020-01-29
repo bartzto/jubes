@@ -9,6 +9,7 @@
 **Team:** Lukas Holzner, Tobias Bartz
 
 ## Grafische Darstellung
+![Grafik](https://github.com/MeisterGig/jubes/blob/master/JuBeS-EPK.svg)
 
 ## Risikoanalyse
 | Problem | Lösung | Wahrscheinlichkeit |
