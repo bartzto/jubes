@@ -28,11 +28,15 @@
 | Leute zahlen nicht | Zugriffsbeschränkungen | Hoch |
 | Hacking | Hardware-Zugriff erschweren | Gering
 | Stromausfall | -/- | Gering |
+| Krankheit | Gesunde Ernährung | Hoch |
 
 ## Ressourcen
 
-ESP32, Buzzer, I2C LCD Bildschirm, RFID Leser, Kabel
+**Material:**
+ESP32, Buzzer, I2C LCD Bildschirm, RFID Leser, Kabel, PCs
 
+**Personal:**
+Lukas Holzner, Tobias Bartz a 9 Tage
 
 ## Meilensteine
 - [x] Karten erkennen **(1 Tag)**
