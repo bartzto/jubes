@@ -3,6 +3,11 @@
 
 *Ein Bezahlsystem mit RFID-Karten für eine Jura Kaffeemaschine.*
 
+
+#Installation
+
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json Hinzufügen zu Preferences > Additional Board Manager URL
+
 # Projektplanung
 **Stakeholder:** Ausbilder
 
