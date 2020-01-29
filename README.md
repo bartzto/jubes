@@ -1,5 +1,6 @@
 # JuBeS
 **J**ura **B**ezahl **S**ystem
+
 *Ein Bezahlsystem mit RFID-Karten für eine Jura Kaffeemaschine.*
 
 # Projektplanung
