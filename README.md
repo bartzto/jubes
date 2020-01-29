@@ -1,8 +1,10 @@
 # JuBeS
 **J**ura **B**ezahl **S**ystem
-* *Ein Bezahlsystem mit RFID-Karten für eine Jura Kaffeemaschine.* *
+*Ein Bezahlsystem mit RFID-Karten für eine Jura Kaffeemaschine.*
 
 # Projektplanung
+**Stakeholder:** Ausbilder
+**Team:** Lukas Holzner, Tobias Bartz
 
 ## Grafische Darstellung
 
