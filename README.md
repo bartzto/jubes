@@ -1,5 +1,5 @@
 # JuBeS
-**J**ura **B**ezahl **S**ystem
+**J**ura **Be**zahl **S**ystem
 
 *Ein Bezahlsystem mit RFID-Karten für eine Jura Kaffeemaschine.*
 
