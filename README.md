@@ -1,11 +1,19 @@
 # JuBeS
 **J**ura **B**ezahl **S**ystem
+* *Ein Bezahlsystem mit RFID-Karten für eine Jura Kaffeemaschine.* *
 
 # Projektplanung
 
 ## Grafische Darstellung
 
 ## Risikoanalyse
+| Problem | Lösung | Wahrscheinlichkeit |
+|--- |--- |--- |
+| Datenverlust | Backups | Mittel |
+| Leute zahlen nicht | Zugriffsbeschränkungen | Hoch |
+| Hacking | Hardware-Zugriff erschweren | Gering
+| Stromausfall | -/- | Gering |
+
 
 ## Meilensteine
 - Karten erkennen
