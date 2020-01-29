@@ -4,9 +4,10 @@
 *Ein Bezahlsystem mit RFID-Karten für eine Jura Kaffeemaschine.*
 
 
-#Installation
+# Installation
 
-https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json Hinzufügen zu Preferences > Additional Board Manager URL
+1. https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json Hinzufügen zu Preferences > Additional Board Manager URL
+2. Add Library:  Sketch > Include Library > Manage Libraries; Search for "MFRC522" and install
 
 # Projektplanung
 **Stakeholder:** Ausbilder
