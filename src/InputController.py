@@ -1,6 +1,7 @@
 from Account import Account
 from DataController import DataController
 from GUIController import GUIController
+from RFIDReader import RFIDReader
 
 
 class InputController:
@@ -8,12 +9,12 @@ class InputController:
         self.acc = acc
         self.dCont = dCont
         self.gCont = gCont
+        self.rfid = RFIDReader()
 
     def rfidListener(self):
         while True:
             self.gCont.display("Scannen Sie die Karte ein!")
-            # TODO read RFID UID
-            uid = input()
+            uid = self.rfid.read()
             self.gCont.display("Bitte wählen Sie den Kaffee aus!")
             self.gCont.showCoffees(self.dCont.getPriceJSON())
             self.buttonListener(uid)

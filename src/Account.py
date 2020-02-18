@@ -23,4 +23,5 @@ class Account:
             jsonA[uid]["transactions"].append({"type": jsonP[coffee]["name"], "amount": (-1 * jsonP[coffee]["price"])})
             self.dCon.writeAccountJSON(jsonA)
             self.gCon.display("Ihr Guthaben ist: " + str(jsonA[uid]["balance"]) + " €")
+        
 
