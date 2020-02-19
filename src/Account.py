@@ -19,7 +19,7 @@ class Account:
             self.gCon.display("Ihr Guthaben ist nicht ausreichend!")
         else:
             self.gCon.display("Danke für ihren Einkauf!")
-            jsonA[uid]["balance"] = round(balance - price, 2)
+            jsonA[uid]["balance"] = balance - price
             jsonA[uid]["transactions"].append({"type": jsonP[coffee]["name"], "amount": (-1 * jsonP[coffee]["price"])})
             self.dCon.writeAccountJSON(jsonA)
             self.gCon.display("Ihr Guthaben ist: " + str(jsonA[uid]["balance"]) + " €")
