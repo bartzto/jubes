@@ -41,5 +41,6 @@ class Account:
         fund = jsonF[category]["balance"]
         wallet = jsonA[uid]["balance"]
         jsonA[uid]["balance"] = wallet + fund
+        jsonA[uid]["transactions"].append({"type": "Top Up" "amount": fund})
         self.dCon.writeAccountJSON(jsonA)
         self.gCon.display("Ihr Guthaben wurde um " + str(jsonF[category]["balance"]) + "€ aufgeladen")
