@@ -16,6 +16,11 @@ class InputController:
         while True:
             self.gCont.display("Scannen Sie die Karte ein!")
             uid = self.rfid.read()
+            jsonA = self.dCont.getAccountJSON()
+            if uid not in jsonA.keys():
+                self.gCont.display("Benutzer unbekannt!")
+                self.acc.addAccount(uid)
+                self.rfidListener()
             if uid == "199,175,177,51":
                 self.gCont.display("Scannen sie die Karte, die sie aufladen möchten.")
                 time.sleep(5)
