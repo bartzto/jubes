@@ -20,8 +20,6 @@ class InputController:
                 self.gCont.display("Scannen sie die Karte, die sie aufladen möchten.")
                 time.sleep(5)
                 fundcard = self.rfid.read()
-                if uid == "233,71,198,72":
-                    
                 self.gCont.display("Bitte wählen Sie aus wie viel Guthaben sie aufladen möchten.")
                 self.gCont.showFunds(self.dCont.getFundJSON())
                 self.buttonListenerFund(fundcard)
