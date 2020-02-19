@@ -12,6 +12,7 @@ class Account:
         jsonA = self.dCon.getAccountJSON()
         if uid not in jsonA.keys():
             self.gCon.display("Benutzer unbekannt!")
+            self.addAccount(uid)
             return
         price = jsonP[coffee]["price"]
         balance = jsonA[uid]["balance"]
@@ -24,7 +25,13 @@ class Account:
             self.dCon.writeAccountJSON(jsonA)
             self.gCon.display("Ihr Guthaben ist: " + str(jsonA[uid]["balance"]) + " €")
         
+    def addAccount(self, uid):
+        jsonA = self.dCon.getAccountJSON()
+        jsonA[uid] = {"balance": 0.0, "transactions": [{"type": "", "amount": 0}]}
+        self.gCon.display("Wir haben Ihre Karte registriert. Bitte lade deine Karte auf!")
+        self.dCon.writeAccountJSON(jsonA)
 
+    
     def addBalance(self, uid, category):
         jsonF = self.dCon.getFundJSON()
         jsonA = self.dCon.getAccountJSON()
