@@ -12,7 +12,7 @@ class RFIDReader:
         # Create an object of the class MFRC522
         # This loop checks for chips. If one is near it will get the UID
         var1 = 0;
-        print("Reading")
+        print("Jetzt Karte scannen.")
         try:
         
   

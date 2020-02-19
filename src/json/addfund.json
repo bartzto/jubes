@@ -1,0 +1,14 @@
+[
+  {
+    "name": "1 Euro",
+    "balance" : 1.0
+  },
+  {
+    "name": "2 Euro",
+    "balance" : 2.0
+  },
+  {
+    "name": "3 Euro",
+    "balance": 3.0
+  }
+]

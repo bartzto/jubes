@@ -10,12 +10,18 @@ class DataController:
             self.accounts = json.load(accountfile)
         with open(os.path.join(path, 'prices.json')) as pricesfile:
             self.prices = json.load(pricesfile)
+        with open(os.path.join(path, 'addfund.json')) as fundfile:
+            self.balance = json.load(fundfile)
+        
 
     def getAccountJSON(self):
         return self.accounts
 
     def getPriceJSON(self):
         return self.prices
+    
+    def getFundJSON(self):
+        return self.balance
 
     def writeAccountJSON(self, accounts):
         self.accounts = accounts

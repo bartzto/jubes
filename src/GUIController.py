@@ -10,4 +10,9 @@ class GUIController:
         for i in range(len(jsonP)):
             x = jsonP[i]
             print(str(i) + ": " + x["name"] + " für " + str(x["price"]))
+            
+    def showFunds(self, jsonP):
+        for i in range(len(jsonP)):
+            x = jsonP[i]
+            print(str(i) + ": " + x["name"])
 

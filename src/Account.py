@@ -25,3 +25,14 @@ class Account:
             self.gCon.display("Ihr Guthaben ist: " + str(jsonA[uid]["balance"]) + " €")
         
 
+    def addBalance(self, uid, category):
+        jsonF = self.dCon.getFundJSON()
+        jsonA = self.dCon.getAccountJSON()
+        if uid not in jsonA.keys():
+            self.gCon.display("Benutzer unbekannt!")
+            return
+        fund = jsonF[category]["balance"]
+        wallet = jsonA[uid]["balance"]
+        jsonA[uid]["balance"] = wallet + fund
+        self.dCon.writeAccountJSON(jsonA)
+        self.gCon.display("Ihr Guthaben wurde um " + str(jsonF[category]["balance"]) + "€ aufgeladen")
